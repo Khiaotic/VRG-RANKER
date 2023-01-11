@@ -17,6 +17,10 @@ const Games = require("./models/games");
 const UserVotes = require("./models/user_votes");
 const Users = require("./models/users");
 
+
+const PORT = process.env.PORT || 3001; 
+
+
 //set handlebars as the view engine + set default layout to main.hbs (actually main.handlebars), like a boss
 app.set("views", "./views");
 app.engine(
@@ -51,7 +55,7 @@ const Routes = require("./controllers/index");
 app.use("/", Routes);
 
 sequelize.sync().then(() => {
-	app.listen(3001, () => {
+	app.listen(PORT, () => {
 		console.log("App listening on port 3001");
 	});
 });
