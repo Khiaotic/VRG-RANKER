@@ -54,6 +54,7 @@ const Routes = require("./controllers/index");
 // Ensure we use the routes
 app.use("/", Routes);
 
+
 sequelize.sync().then(() => {
 	app.listen(PORT, () => {
 		console.log("App listening on port 3001");
