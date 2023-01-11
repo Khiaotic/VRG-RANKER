@@ -11,7 +11,7 @@ Preview image: ![ranker](https://user-images.githubusercontent.com/112679225/211
 Link to APP: https://vrgranker.herokuapp.com/
 
 User Story
-AS a client,I WANT to be able to look for new virtual reality games, see their rankings among others, and vote on games myself.
+AS a client,I WANT to be able to sign up or log in the site. I WANT to look for new virtual reality games, see their rankings among others, and vote on games myself.
 
 📋Table of Contents
 -License
